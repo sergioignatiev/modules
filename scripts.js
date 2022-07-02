@@ -1,3 +1,4 @@
-import modules from "./modules.js";
 
-document.getElementById("demo").innerHTML = modules();
+import employees from './test.js';
+const obj = JSON.parse(employees);
+document.getElementById("catalog").innerHTML=obj.name+" is "+obj.age
