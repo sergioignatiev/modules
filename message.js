@@ -1,16 +1,5 @@
 
-const one =(x)=>{
-return <div>
-Hello ${x}
+const one ="one"
 
-</div>
 
-}
-const two =(x)=>{
-  return <div>
-  bue ${x}
-  
-  </div>
-  
-  }
-  export {one,two}
+  export default one;
