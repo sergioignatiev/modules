@@ -1,2 +1,2 @@
-import {message} from './message.js'
-document.getElementById("demo").innerHTML=message.name
+import {one,two} from './message.js'
+document.getElementById("demo").innerHTML=one("hi")+two("I")

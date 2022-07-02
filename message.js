@@ -1,8 +1,16 @@
 
-const message ={
-  name:"someNamed",
-  age:"30",
-  both:function(){return this.name+" "+this.age}
+const one =(x)=>{
+return <div>
+Hello ${x}
+
+</div>
+
 }
-const plus="this is plus message"
-export  {message,plus}
+const two =(x)=>{
+  return <div>
+  bue ${x}
+  
+  </div>
+  
+  }
+  export {one,two}
