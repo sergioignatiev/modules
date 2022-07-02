@@ -3,11 +3,13 @@
 
 <body>
 
-<p id="demo">TEST</p>
+<p id="demo"></p>
 
 <script type="module">
-    import modules from './modules.js'
-document.getlementById("demo").innerHTML=modules
+import modules from "./modules.js";
+
+document.getElementById("demo").innerHTML = modules();
+
 </script>
 
 </body>
